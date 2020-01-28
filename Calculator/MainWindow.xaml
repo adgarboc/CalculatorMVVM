@@ -21,7 +21,7 @@
             <RowDefinition/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <TextBox Name="txtResult" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4"/>
+        <TextBox Name="txtResult" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" FlowDirection="RightToLeft"/>
         <Button Name="btnAllClear" Grid.Row="1" Grid.Column="0" Content="AC"/>
         <Button Name="btnClearEntry" Grid.Row="1" Grid.Column="1" Content="CE"/>
         <Button Name="btnDelete" Grid.Row="1" Grid.Column="2" Content="DEL"/>
