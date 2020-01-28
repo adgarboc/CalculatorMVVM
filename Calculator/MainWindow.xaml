@@ -5,8 +5,42 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Calculator"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Calculator" Height="700" Width="350" WindowStartupLocation="CenterScreen">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBox Name="txtResult" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4"/>
+        <Button Name="btnAllClear" Grid.Row="1" Grid.Column="0" Content="AC"/>
+        <Button Name="btnClearEntry" Grid.Row="1" Grid.Column="1" Content="CE"/>
+        <Button Name="btnDelete" Grid.Row="1" Grid.Column="2" Content="DEL"/>
+        <Button Name="btnDivide" Grid.Row="1" Grid.Column="3" Content="/"/>
+        <Button Name="btnSeven" Grid.Row="2" Grid.Column="0" Content="7"/>
+        <Button Name="btnEight" Grid.Row="2" Grid.Column="1" Content="8"/>
+        <Button Name="btnNine" Grid.Row="2" Grid.Column="2" Content="9"/>
+        <Button Name="btnMultiply" Grid.Row="2" Grid.Column="3" Content="x"/>
+        <Button Name="btnFour" Grid.Row="3" Grid.Column="0" Content="4"/>
+        <Button Name="btnFive" Grid.Row="3" Grid.Column="1" Content="5"/>
+        <Button Name="btnSix" Grid.Row="3" Grid.Column="2" Content="6"/>
+        <Button Name="btnMinus" Grid.Row="3" Grid.Column="3" Content="-"/>
+        <Button Name="btnOne" Grid.Row="4" Grid.Column="0" Content="1"/>
+        <Button Name="btnTwo" Grid.Row="4" Grid.Column="1" Content="2"/>
+        <Button Name="btnThree" Grid.Row="4" Grid.Column="2" Content="3"/>
+        <Button Name="btnAddition" Grid.Row="4" Grid.Column="3" Content="+"/>
+        <Button Name="btnDot" Grid.Row="5" Grid.Column="0" Content="."/>
+        <Button Name="btnZero" Grid.Row="5" Grid.Column="1" Content="0"/>
+        <Button Name="btnPercent" Grid.Row="5" Grid.Column="2" Content="%"/>
+        <Button Name="btnEqual" Grid.Row="5" Grid.Column="3" Content="="/>
     </Grid>
 </Window>
