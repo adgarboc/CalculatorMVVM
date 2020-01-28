@@ -39,7 +39,7 @@
         <Button Name="btnThree" Grid.Row="4" Grid.Column="2" Content="3"/>
         <Button Name="btnAddition" Grid.Row="4" Grid.Column="3" Content="+"/>
         <Button Name="btnDot" Grid.Row="5" Grid.Column="0" Content="."/>
-        <Button Name="btnZero" Grid.Row="5" Grid.Column="1" Content="0"/>
+        <Button Name="btnZero" Grid.Row="5" Grid.Column="1" Content="0" Click="btnZero_Click"/>
         <Button Name="btnPercent" Grid.Row="5" Grid.Column="2" Content="%"/>
         <Button Name="btnEqual" Grid.Row="5" Grid.Column="3" Content="="/>
     </Grid>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Calculator.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -24,5 +25,11 @@ namespace Calculator
         {
             InitializeComponent();
         }
+        CalcViewModel viewModel = new CalcViewModel();
+        public void calculate(object sender, RoutedEventArgs e)
+        {
+            
+        }
+
     }
 }
